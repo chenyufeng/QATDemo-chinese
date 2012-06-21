@@ -1,4 +1,6 @@
 *.bak
+bin_debug/
+build/
 
 # Compiled Object files
 *.slo
