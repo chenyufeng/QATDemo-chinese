@@ -34,6 +34,7 @@ bool Crystal820Layer::init()
 	pSprite = CCSprite::spriteWithFile("crystal820.png");
 	// position the sprite on the center of the screen
 	pSprite->setPosition( ccp(size.width/2, size.height/2) );
+	pSprite->setTag(1000);
 	// add the sprite as a child to this layer
 	this->addChild(pSprite);
 	 
@@ -42,11 +43,19 @@ bool Crystal820Layer::init()
 
 void Crystal820Layer::onEnter()
 {
+	CCFadeIn* pFadeIn = CCFadeIn::actionWithDuration(1);
+	CCNode* pNode = this->getChildByTag(1000);
+	pNode->stopAllActions();
+	pNode->runAction(pFadeIn);
+	
 	CCTouchDispatcher::sharedDispatcher()->addTargetedDelegate(this, 0, true);
 	CCLayerColor::onEnter();
 }
 void Crystal820Layer::onExit()
 {
+	CCNode* pNode = this->getChildByTag(1000);
+	pNode->stopAllActions();
+
 	CCTouchDispatcher::sharedDispatcher()->removeDelegate(this);
 	CCLayerColor::onExit();
 	CCDirector::sharedDirector()->purgeCachedData();

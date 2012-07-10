@@ -11,6 +11,7 @@
 #include "MainScene.h"
 #include "MovableSelector.h"
 #include "ScrollableNode.h"
+#include "GlobalConfig.h"
 
 USING_NS_CC;
 
@@ -65,14 +66,24 @@ bool HifiLayer::init()
 				nLastHalfY = pSprite->getContentSize().height/2;
 			}
 			nCurX = nCurX + nLastHalfX + pSprite->getContentSize().width/2;
+#if (VERSION_LANGUAGE == VERSION_CHINESE)
 			if(line == 3)
 				nCurX -= 27;
+#elif (VERSION_LANGUAGE == VERSION_ENGLISH)
+		
+#endif
+			
 			nLastHalfX = pSprite->getContentSize().width/2;
 			pSprite->setPosition( ccp(nCurX, nCurY) );
 			m_pImageNode->addChild(pSprite);
 			pSprite->getTexture()->setAliasTexParameters();
 		}
 	}
+#if (VERSION_LANGUAGE == VERSION_CHINESE)
+	contentSize.width -= 27;
+#elif (VERSION_LANGUAGE == VERSION_ENGLISH)
+	
+#endif
 	m_pImageNode->setContentSize(contentSize);
 	m_pImageNode->setPosition(m_tBeginPos);
 

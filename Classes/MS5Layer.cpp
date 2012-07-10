@@ -315,7 +315,7 @@ void MS5Layer::showNotePanel(int nTag, int nData, float fX/*=0.0f*/, float fY/*=
 		const char* szPath[7] = {"machine/machine_silver.png", "machine/machine_gold.png", "machine/machine_red.png", "machine/machine_darkred.png", "machine/machine_green.png", "machine/machine_blue.png", "machine/machine_black.png"};
 		//ColorMachinePanel* pPanel = ColorMachinePanel::panelWithFile("color_variation.png");
 		CCSprite* pPanel = ClickedSprite::clickedSpriteWithFile(szPath[nData]);
-		pPanel->setPosition( ccp(368, 372) );
+		pPanel->setPosition( ccp(368, 358) );
 		//pPanel->setColor(static_cast<ColorMachinePanel::MachineColor>(nData));
 		pPanel->setTag(nTag);
 		pPanel->setIsVisible(true);

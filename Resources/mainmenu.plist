@@ -7,7 +7,7 @@
             <key>company_menu_normal.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{71,538},{98,57}}</string>
+                <string>{{71,636},{98,57}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -20,7 +20,7 @@
             <key>company_menu_select.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{71,440},{98,57}}</string>
+                <string>{{71,538},{98,57}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -33,7 +33,7 @@
             <key>evaluation_menu_normal.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{71,342},{98,57}}</string>
+                <string>{{71,440},{98,57}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -46,7 +46,7 @@
             <key>evaluation_menu_select.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{71,636},{98,57}}</string>
+                <string>{{71,342},{98,57}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -72,7 +72,7 @@
             <key>product_menu_normal.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{71,0},{171,57}}</string>
+                <string>{{71,171},{171,57}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -85,7 +85,7 @@
             <key>product_menu_select.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{71,171},{171,57}}</string>
+                <string>{{71,0},{171,57}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -118,7 +118,7 @@
             <key>size</key>
             <string>{128,1024}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:2cbde1e66d671c781cde595fff191c74$</string>
+            <string>$TexturePacker:SmartUpdate:cc11089de34bb87a94afb8408503d3f1$</string>
             <key>textureFileName</key>
             <string>mainmenu.png</string>
         </dict>

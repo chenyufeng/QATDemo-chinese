@@ -334,6 +334,7 @@
 		FF560E3B15902A6900AE95E0 /* sixmoon in Resources */ = {isa = PBXBuildFile; fileRef = FF560E0615902A6900AE95E0 /* sixmoon */; };
 		FF560E3C15902A6900AE95E0 /* specpage.png in Resources */ = {isa = PBXBuildFile; fileRef = FF560E1D15902A6900AE95E0 /* specpage.png */; };
 		FF560E3D15902A6900AE95E0 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FF560E1E15902A6900AE95E0 /* video.mp4 */; };
+		FFB1493B1594A61900CFC78E /* shape in Resources */ = {isa = PBXBuildFile; fileRef = FFB148F81594A61900CFC78E /* shape */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -694,6 +695,7 @@
 		FF560E0615902A6900AE95E0 /* sixmoon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sixmoon; sourceTree = "<group>"; };
 		FF560E1D15902A6900AE95E0 /* specpage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = specpage.png; sourceTree = "<group>"; };
 		FF560E1E15902A6900AE95E0 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		FFB148F81594A61900CFC78E /* shape */ = {isa = PBXFileReference; lastKnownFileType = folder; path = shape; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -867,6 +869,7 @@
 		BF21A9A013E0F9D20067F790 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FFB148F81594A61900CFC78E /* shape */,
 				FF560D9215902A6900AE95E0 /* amplifier.png */,
 				FF560D9315902A6900AE95E0 /* color_button.plist */,
 				FF560D9415902A6900AE95E0 /* color_button.png */,
@@ -1552,6 +1555,9 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = lexong;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "QATDemo-chinese" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
@@ -1616,6 +1622,7 @@
 				FF560E3B15902A6900AE95E0 /* sixmoon in Resources */,
 				FF560E3C15902A6900AE95E0 /* specpage.png in Resources */,
 				FF560E3D15902A6900AE95E0 /* video.mp4 in Resources */,
+				FFB1493B1594A61900CFC78E /* shape in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

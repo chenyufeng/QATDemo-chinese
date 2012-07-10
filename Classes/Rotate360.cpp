@@ -105,8 +105,8 @@ Rotate360::Rotate360(void)
 
 	m_PointPos[42].nPosX[0]=0;m_PointPos[42].nPosY[0]=0; m_PointPos[42].nPosX[1]=0;m_PointPos[42].nPosY[1]=0;
 	m_PointPos[42].nPosX[2]=0;m_PointPos[42].nPosY[2]=0; m_PointPos[42].nPosX[3]=int(144*2.82f);m_PointPos[42].nPosY[3]=768-(164*2.82f);
-	m_PointPos[42].nPosX[4]=int(124*2.82f);m_PointPos[42].nPosY[4]=768-(150*2.82f); m_PointPos[42].nPosX[5]=int(76*2.82f);m_PointPos[42].nPosY[5]=768-(120*2.82f);
-	m_PointPos[42].nPosX[6]=int(124*2.82f);m_PointPos[42].nPosY[6]=768-(70*2.82f); m_PointPos[42].nPosX[7]=int(136*2.82f);m_PointPos[42].nPosY[7]=768-(164*2.82f); 
+	m_PointPos[42].nPosX[4]=int(124*2.82f);m_PointPos[42].nPosY[4]=768-(151*2.82f); m_PointPos[42].nPosX[5]=int(76*2.82f);m_PointPos[42].nPosY[5]=768-(120*2.82f);
+	m_PointPos[42].nPosX[6]=int(124*2.82f);m_PointPos[42].nPosY[6]=768-(70*2.82f); m_PointPos[42].nPosX[7]=int(136*2.82f);m_PointPos[42].nPosY[7]=768-(177*2.82f); 
 
 
 	m_PointPos[41].nPosX[0]=0;m_PointPos[41].nPosY[0]=0; m_PointPos[41].nPosX[1]=0;m_PointPos[41].nPosY[1]=0;
@@ -123,8 +123,8 @@ Rotate360::Rotate360(void)
 
 	m_PointPos[39].nPosX[0]=0;m_PointPos[39].nPosY[0]=0; m_PointPos[39].nPosX[1]=0;m_PointPos[39].nPosY[1]=0;
 	m_PointPos[39].nPosX[2]=0;m_PointPos[39].nPosY[2]=0; m_PointPos[39].nPosX[3]=int(148*2.82f);m_PointPos[39].nPosY[3]=768-(146*2.82f);
-	m_PointPos[39].nPosX[4]=int(126*2.82f);m_PointPos[39].nPosY[4]=768-(124*2.82f); m_PointPos[39].nPosX[5]=int(76*2.82f);m_PointPos[39].nPosY[5]=768-(120*2.82f);
-	m_PointPos[39].nPosX[6]=int(120*2.82f);m_PointPos[39].nPosY[6]=768-(58*2.82f); m_PointPos[39].nPosX[7]=int(138*2.82f);m_PointPos[39].nPosY[7]=768-(146*2.82f); 
+	m_PointPos[39].nPosX[4]=int(126*2.82f);m_PointPos[39].nPosY[4]=768-(125*2.82f); m_PointPos[39].nPosX[5]=int(76*2.82f);m_PointPos[39].nPosY[5]=768-(120*2.82f);
+	m_PointPos[39].nPosX[6]=int(120*2.82f);m_PointPos[39].nPosY[6]=768-(58*2.82f); m_PointPos[39].nPosX[7]=int(138*2.82f);m_PointPos[39].nPosY[7]=768-(163*2.82f); 
 
 	m_PointPos[38].nPosX[0]=0;m_PointPos[38].nPosY[0]=0; m_PointPos[38].nPosX[1]=0;m_PointPos[38].nPosY[1]=0;
 	m_PointPos[38].nPosX[2]=0;m_PointPos[38].nPosY[2]=0; m_PointPos[38].nPosX[3]=int(148*2.82f);m_PointPos[38].nPosY[3]=768-(140*2.82f);
@@ -139,7 +139,7 @@ Rotate360::Rotate360(void)
 	m_PointPos[36].nPosX[0]=0;m_PointPos[36].nPosY[0]=0; m_PointPos[36].nPosX[1]=0;m_PointPos[36].nPosY[1]=0;
 	m_PointPos[36].nPosX[2]=0;m_PointPos[36].nPosY[2]=0; m_PointPos[36].nPosX[3]=int(148*2.82f);m_PointPos[36].nPosY[3]=768-(128*2.82f);
 	m_PointPos[36].nPosX[4]=int(124*2.82f);m_PointPos[36].nPosY[4]=768-(100*2.82f); m_PointPos[36].nPosX[5]=int(76*2.82f);m_PointPos[36].nPosY[5]=768-(120*2.82f);
-	m_PointPos[36].nPosX[6]=int(118*2.82f);m_PointPos[36].nPosY[6]=768-(50*2.82f); m_PointPos[36].nPosX[7]=int(138*2.82f);m_PointPos[36].nPosY[7]=768-(128*2.82f); 
+	m_PointPos[36].nPosX[6]=int(118*2.82f);m_PointPos[36].nPosY[6]=768-(50*2.82f); m_PointPos[36].nPosX[7]=int(138*2.82f);m_PointPos[36].nPosY[7]=768-(147*2.82f); 
 
 	m_PointPos[35].nPosX[0]=0;m_PointPos[35].nPosY[0]=0; m_PointPos[35].nPosX[1]=0;m_PointPos[35].nPosY[1]=0;
 	m_PointPos[35].nPosX[2]=0;m_PointPos[35].nPosY[2]=0; m_PointPos[35].nPosX[3]=int(148*2.82f);m_PointPos[35].nPosY[3]=768-(120*2.82f);
@@ -154,7 +154,7 @@ Rotate360::Rotate360(void)
 	m_PointPos[33].nPosX[0]=0;m_PointPos[33].nPosY[0]=0; m_PointPos[33].nPosX[1]=0;m_PointPos[33].nPosY[1]=0;
 	m_PointPos[33].nPosX[2]=0;m_PointPos[33].nPosY[2]=0; m_PointPos[33].nPosX[3]=int(148*2.82f);m_PointPos[33].nPosY[3]=768-(108*2.82f);
 	m_PointPos[33].nPosX[4]=int(120*2.82f);m_PointPos[33].nPosY[4]=768-(78*2.82f); m_PointPos[33].nPosX[5]=int(76*2.82f);m_PointPos[33].nPosY[5]=768-(130*2.82f);
-	m_PointPos[33].nPosX[6]=0;m_PointPos[33].nPosY[6]=0; m_PointPos[33].nPosX[7]=int(138*2.82f);m_PointPos[33].nPosY[7]=768-(108*2.82f); 
+	m_PointPos[33].nPosX[6]=0;m_PointPos[33].nPosY[6]=0; m_PointPos[33].nPosX[7]=int(138*2.82f);m_PointPos[33].nPosY[7]=768-(130*2.82f); 
 
 	m_PointPos[32].nPosX[0]=0;m_PointPos[32].nPosY[0]=0; m_PointPos[32].nPosX[1]=0;m_PointPos[32].nPosY[1]=0;
 	m_PointPos[32].nPosX[2]=0;m_PointPos[32].nPosY[2]=0; m_PointPos[32].nPosX[3]=int(146*2.82f);m_PointPos[32].nPosY[3]=768-(102*2.82f);
@@ -168,8 +168,8 @@ Rotate360::Rotate360(void)
 
 	m_PointPos[30].nPosX[0]=0;m_PointPos[30].nPosY[0]=0; m_PointPos[30].nPosX[1]=0;m_PointPos[30].nPosY[1]=0;
 	m_PointPos[30].nPosX[2]=0;m_PointPos[30].nPosY[2]=0; m_PointPos[30].nPosX[3]=int(146*2.82f);m_PointPos[30].nPosY[3]=768-(92*2.82f);
-	m_PointPos[30].nPosX[4]=int(116*2.82f);m_PointPos[30].nPosY[4]=768-(62*2.82f); m_PointPos[30].nPosX[5]=int(76*2.82f);m_PointPos[30].nPosY[5]=768-(130*2.82f);
-	m_PointPos[30].nPosX[6]=0;m_PointPos[30].nPosY[6]=0; m_PointPos[30].nPosX[7]=int(134*2.82f);m_PointPos[30].nPosY[7]=768-(92*2.82f); 
+	m_PointPos[30].nPosX[4]=int(116*2.82f);m_PointPos[30].nPosY[4]=768-(63*2.82f); m_PointPos[30].nPosX[5]=int(76*2.82f);m_PointPos[30].nPosY[5]=768-(130*2.82f);
+	m_PointPos[30].nPosX[6]=0;m_PointPos[30].nPosY[6]=0; m_PointPos[30].nPosX[7]=int(134*2.82f);m_PointPos[30].nPosY[7]=768-(112*2.82f); 
 
 	m_PointPos[29].nPosX[0]=0;m_PointPos[29].nPosY[0]=0; m_PointPos[29].nPosX[1]=0;m_PointPos[29].nPosY[1]=0;
 	m_PointPos[29].nPosX[2]=0;m_PointPos[29].nPosY[2]=0; m_PointPos[29].nPosX[3]=int(146*2.82f);m_PointPos[29].nPosY[3]=768-(88*2.82f);
@@ -185,7 +185,7 @@ Rotate360::Rotate360(void)
 	m_PointPos[27].nPosX[0]=0;m_PointPos[27].nPosY[0]=0; m_PointPos[27].nPosX[1]=0;m_PointPos[27].nPosY[1]=0;
 	m_PointPos[27].nPosX[2]=0;m_PointPos[27].nPosY[2]=0; m_PointPos[27].nPosX[3]=int(142*2.82f);m_PointPos[27].nPosY[3]=768-(80*2.82f);
 	m_PointPos[27].nPosX[4]=int(112*2.82f);m_PointPos[27].nPosY[4]=768-(54*2.82f); m_PointPos[27].nPosX[5]=int(74*2.82f);m_PointPos[27].nPosY[5]=768-(130*2.82f);
-	m_PointPos[27].nPosX[6]=int(120*2.82f);m_PointPos[27].nPosY[6]=768-(210*2.82f); m_PointPos[27].nPosX[7]=int(132*2.82f);m_PointPos[27].nPosY[7]=768-(80*2.82f); 
+	m_PointPos[27].nPosX[6]=int(120*2.82f);m_PointPos[27].nPosY[6]=768-(210*2.82f); m_PointPos[27].nPosX[7]=int(132*2.82f);m_PointPos[27].nPosY[7]=768-(95*2.82f); 
 
 	m_PointPos[26].nPosX[0]=0;m_PointPos[26].nPosY[0]=0; m_PointPos[26].nPosX[1]=0;m_PointPos[26].nPosY[1]=0;
 	m_PointPos[26].nPosX[2]=0;m_PointPos[26].nPosY[2]=0; m_PointPos[26].nPosX[3]=int(140*2.82f);m_PointPos[26].nPosY[3]=768-(76*2.82f);
@@ -194,18 +194,18 @@ Rotate360::Rotate360(void)
 
 	m_PointPos[25].nPosX[0]=0;m_PointPos[25].nPosY[0]=0; m_PointPos[25].nPosX[1]=0;m_PointPos[25].nPosY[1]=0;
 	m_PointPos[25].nPosX[2]=0;m_PointPos[25].nPosY[2]=0; m_PointPos[25].nPosX[3]=int(140*2.82f);m_PointPos[25].nPosY[3]=768-(74*2.82f);
-	m_PointPos[25].nPosX[4]=int(110*2.82f);m_PointPos[25].nPosY[4]=768-(52*2.82f); m_PointPos[25].nPosX[5]=int(74*2.82f);m_PointPos[25].nPosY[5]=768-(130*2.82f);
-	m_PointPos[25].nPosX[6]=int(120*2.82f);m_PointPos[25].nPosY[6]=768-(210*2.82f); m_PointPos[25].nPosX[7]=int(130*2.82f);m_PointPos[25].nPosY[7]=768-(74*2.82f); 
+	m_PointPos[25].nPosX[4]=int(110*2.82f);m_PointPos[25].nPosY[4]=768-(53*2.82f); m_PointPos[25].nPosX[5]=int(74*2.82f);m_PointPos[25].nPosY[5]=768-(130*2.82f);
+	m_PointPos[25].nPosX[6]=int(120*2.82f);m_PointPos[25].nPosY[6]=768-(210*2.82f); m_PointPos[25].nPosX[7]=int(130*2.82f);m_PointPos[25].nPosY[7]=768-(80*2.82f); 
 
 	m_PointPos[24].nPosX[0]=0;m_PointPos[24].nPosY[0]=0; m_PointPos[24].nPosX[1]=0;m_PointPos[24].nPosY[1]=0;
 	m_PointPos[24].nPosX[2]=0;m_PointPos[24].nPosY[2]=0; m_PointPos[24].nPosX[3]=int(140*2.82f);m_PointPos[24].nPosY[3]=768-(72*2.82f);
-	m_PointPos[24].nPosX[4]=int(108*2.82f);m_PointPos[24].nPosY[4]=768-(52*2.82f); m_PointPos[24].nPosX[5]=int(74*2.82f);m_PointPos[24].nPosY[5]=768-(130*2.82f);
-	m_PointPos[24].nPosX[6]=int(120*2.82f);m_PointPos[24].nPosY[6]=768-(200*2.82f); m_PointPos[24].nPosX[7]=int(128*2.82f);m_PointPos[24].nPosY[7]=768-(72*2.82f); 
+	m_PointPos[24].nPosX[4]=int(108*2.82f);m_PointPos[24].nPosY[4]=768-(53*2.82f); m_PointPos[24].nPosX[5]=int(74*2.82f);m_PointPos[24].nPosY[5]=768-(130*2.82f);
+	m_PointPos[24].nPosX[6]=int(120*2.82f);m_PointPos[24].nPosY[6]=768-(200*2.82f); m_PointPos[24].nPosX[7]=int(128*2.82f);m_PointPos[24].nPosY[7]=768-(83*2.82f); 
 
 	m_PointPos[23].nPosX[0]=0;m_PointPos[23].nPosY[0]=0; m_PointPos[23].nPosX[1]=0;m_PointPos[23].nPosY[1]=0;
 	m_PointPos[23].nPosX[2]=0;m_PointPos[23].nPosY[2]=0; m_PointPos[23].nPosX[3]=int(140*2.82f);m_PointPos[23].nPosY[3]=768-(72*2.82f);
 	m_PointPos[23].nPosX[4]=int(108*2.82f);m_PointPos[23].nPosY[4]=768-(56*2.82f); m_PointPos[23].nPosX[5]=int(74*2.82f);m_PointPos[23].nPosY[5]=768-(130*2.82f);
-	m_PointPos[23].nPosX[6]=int(120*2.82f);m_PointPos[23].nPosY[6]=768-(194*2.82f); m_PointPos[23].nPosX[7]=int(128*2.82f);m_PointPos[23].nPosY[7]=768-(72*2.82f); 
+	m_PointPos[23].nPosX[6]=int(120*2.82f);m_PointPos[23].nPosY[6]=768-(194*2.82f); m_PointPos[23].nPosX[7]=int(128*2.82f);m_PointPos[23].nPosY[7]=768-(75*2.82f); 
 
 	m_PointPos[22].nPosX[0]=0;m_PointPos[22].nPosY[0]=0; m_PointPos[22].nPosX[1]=0;m_PointPos[22].nPosY[1]=0;
 	m_PointPos[22].nPosX[2]=0;m_PointPos[22].nPosY[2]=0; m_PointPos[22].nPosX[3]=0;m_PointPos[22].nPosY[3]=0;
@@ -354,12 +354,12 @@ bool Rotate360::init()
 	m_state = kStateUngrabbed;
 
 	CCSize size = CCDirector::sharedDirector()->getWinSize();
-	/*CCSprite* pSprite = CCSprite::spriteWithFile("shape/01.png");
+	CCSprite* pSprite = CCSprite::spriteWithFile("shape/01.png");
 	pSprite->setTag(TAG_SHADOW);
 	pSprite->setPosition( ccp(pSprite->getContentSize().width/2+53, size.height-(pSprite->getContentSize().height/2+373)) );
-	this->addChild(pSprite, 1);*/
+	this->addChild(pSprite, 1);
 	
-	CCSprite* pSprite = CCSprite::spriteWithSpriteFrameName("arrow.png");
+	pSprite = CCSprite::spriteWithSpriteFrameName("arrow.png");
 	pSprite->setPosition( ccp(377, 296) );
 	pSprite->setTag(TAG_ARROW);
 	this->addChild(pSprite, 1);
@@ -383,14 +383,18 @@ bool Rotate360::init()
 	pMenu->setPosition( CCPointZero );
 	this->addChild(pMenu, 1);
 	
+	m_nImageCount = 0;
 	char szPath[256];
 	for(int i=1; i<=60; )
 	{
+		m_ImageIndex[m_nImageCount] = i;
+		m_nImageCount++;
+		
 		sprintf(szPath, "machine/machine_%02d.png", i);
 		CCTextureCache::sharedTextureCache()->addImage(szPath);
-		//sprintf(szPath, "shape/%02d.png", i);
-		//CCTextureCache::sharedTextureCache()->addImage(szPath);
-		i += 2;
+		sprintf(szPath, "shape/%02d.png", i);
+		CCTextureCache::sharedTextureCache()->addImage(szPath);
+		i += 3;
 	}
 
 	m_fRotateAngle = 30.0f;
@@ -571,9 +575,16 @@ void Rotate360::updateAngle()
 		fEnd += 6.0f;
 	}*/
 	
-	int nImage = nIndex;//(nIndex-1)/5*5+1;
-	if(nImage%2==0)
-		nImage = nImage-1;
+	int nImage = m_ImageIndex[m_nImageCount-1];
+	for(int i=0; i<m_nImageCount-1; i++)
+	{
+		if(nIndex >= m_ImageIndex[i] && nIndex < m_ImageIndex[i+1])
+		{
+			nImage = m_ImageIndex[i];
+			break;
+		}
+	}
+	
 	/*int nImage = 1; 
 	if(nIndex>=1 && nIndex <10)
 		nImage = 1;
@@ -602,7 +613,7 @@ void Rotate360::updateAngle()
 		//pMachine->setPosition( ccp(pMachine->getContentSize().width/2+m_arMachinePos[nIndex-1][0], size.height-(pMachine->getContentSize().height/2+m_arMachinePos[nIndex-1][1])) );
 		//pMachine->setPosition( ccp(pMachine->getContentSize().width/2+42, size.height-(pMachine->getContentSize().height/2+179)) );
 	}
-	/*CCSprite* pShadow = dynamic_cast<CCSprite*>(this->getChildByTag(TAG_SHADOW));
+	CCSprite* pShadow = dynamic_cast<CCSprite*>(this->getChildByTag(TAG_SHADOW));
 	if(pShadow)
 	{
 		sprintf(szPath, "shape/%02d.png", nImage);
@@ -611,8 +622,8 @@ void Rotate360::updateAngle()
 			texture = CCTextureCache::sharedTextureCache()->addImage(szPath);
 		pShadow->setTexture(texture);
 		//pShadow->setPosition( ccp(pShadow->getContentSize().width/2+53, size.height-(pShadow->getContentSize().height/2+373)) );
-	}*/
-	updatePoint(nIndex);
+	}
+	updatePoint(nImage);
 	//CCDirector::sharedDirector()->purgeCachedData();
 }
 

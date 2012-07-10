@@ -78,7 +78,11 @@ void MainScene::initMainMenu()
 	
 	// create menu, it's an autorelease object
 	CCMenu* pMenu = CCMenu::menuWithItems(m_pMainMenu[0], m_pMainMenu[1], m_pMainMenu[2], NULL);
+#if (VERSION_LANGUAGE == VERSION_CHINESE)
 	pMenu->setPosition( ccp(size.width/2, (pSprite->getContentSize().height-pNormal->getContentSize().height-4) + pNormal->getContentSize().height/2) );
+#elif (VERSION_LANGUAGE == VERSION_ENGLISH)
+	pMenu->setPosition( ccp(size.width/2, pSprite->getContentSize().height/2) );
+#endif	
 	pMenu->alignItemsHorizontallyWithPadding(124);
 	this->addChild(pMenu, 2);
 }
@@ -122,9 +126,9 @@ void MainScene::initProductSubMenu()
 	CCMenuItemSprite *pItem5 = CCMenuItemSprite::itemFromNormalSprite(pNormal, pSelect, NULL, this, menu_selector(MainScene::crystal820SubMenuCallback));
 	
 	// create menu, it's an autorelease object
-	CCMenu* pMenu = CCMenu::menuWithItems(pItem1, pItem2, pItem3, pItem5, pItem4, NULL);
+	CCMenu* pMenu = CCMenu::menuWithItems(pItem1, pItem3, pItem2, pItem4, pItem5, NULL);
 	pMenu->setPosition( ccp(size.width/2, 238) );
-	pMenu->alignItemsVerticallyWithPadding(-0.5f);
+	pMenu->alignItemsVerticallyWithPadding(0.0f);
 	pMenu->setTag(TAG_PRODUCT_SUB_MENU);
 	pMenu->setIsVisible(false);
 	this->addChild(pMenu, 1);

@@ -499,6 +499,9 @@ void CCDirector::runWithScene(CCScene *pScene)
 
 	pushScene(pScene);
 	startAnimation();
+	
+	//  渲染第一帧，避免黑帧
+	mainLoop();
 }
 
 void CCDirector::replaceScene(CCScene *pScene)

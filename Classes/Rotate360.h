@@ -63,6 +63,9 @@ private:
 	int		m_nPage;
 	bool	m_bCanRotate;
 	
+	int		m_nImageCount;
+	int		m_ImageIndex[60];
+	
 };
 
 #endif // _ROTATE_360_H_
